@@ -7,10 +7,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Write the number to convert to binary: ");
-            int decimale = int.Parse(Console.ReadLine());
-            string binary = Convert.ToString(decimale, 2);
-            Console.WriteLine($"The converted number is {binary}");
-            Console.ReadLine();
-        }
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine("which type of conversion do you want to do? (write->binary, decimal, hexadecimal)");
     }
 }
